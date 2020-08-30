@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration page</title>
+         <style>
+              img {
+                margin-top: 0px;
+                margin-left: 0px;
+                width: 90px;
+                height: 70px;
+            }
+            div.ex1 {
+                float: right;
+                width: 45px;
+            }
+            ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+              background-color: black;
+            }
+            li {
+             float: left;
+          }
+           li a {
+             display: block;
+             color: white;
+             text-align: center;
+             padding: 10px 10px;
+             text-decoration: none;
+            }
+            li a:hover {
+              color: rgb(212, 193, 20);
+            }
+            label{
+                top: 3cm;
+                display:inline-block;
+                padding: 3px;
+                margin-bottom: 2px;
+               margin-right: 3px;
+               text-align: center;
+                
+            }
+            input {
+                 padding: 3px;
+            }
+            .ex3{
+                margin-left: 54px;
+                text-align: center;
+                width: 6cm;
+            }
+            .ex4 {
+                margin-bottom: 4px;
+                margin-left: 72px;
+                width: 6cm;
+                text-align: center;
+            }
+            .ex5 {
+                margin-left: 56px;
+                width: 6cm;
+                text-align: center;
+            }
+            .ex6 {
+                margin-left: 1.8cm;
+            }
+            .ex7 {
+                margin-left: 1.9cm;
+                text-align: center;
+                width: 6cm;
+            }
+            .ex8 {
+                margin-left: 2.5cm;
+                text-align: center;
+            }
+            .ex9 {
+                margin-left: 4.5cm;
+            }
+            .ex {
+                text-align: center;
+            }
+            .button {
+             background-color: black;
+             color: white;
+             padding: 5px 10px;
+             text-align: center;
+             text-decoration: none;
+             display: inline-block;
+            font-size: 14px;
+            }
+         </style>
+    </head>
+    <body>
+        <a href="https://www.iiit.ac.in/"><img src="https://www.iiit.ac.in/img/iiit-new.png"></a>
+        <div class="ex1">
+        <a href="https://serc.iiit.ac.in/rdip">RDIP</a>
+        </div>
+        <ul>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="registration.html">Registration</a></li>
+        </ul>
+        <form method="GET" target="-blank">
+            <div>
+               <label class="ex" for="firstname">First name:  
+               <input class="ex3" type="text" name="firstname"value="VidyaManasa">
+               </label><br>
+               <label class="ex" for="E-mail">E-mail:  </label>
+               <input class="ex4" type="text" name="E-mail" value="manasadakara@gmail.com">
+                <br>
+               <label for="number">Phone no:</label>  
+               <input class="ex5" type="text" name="Phone no" value="6300737854">
+               <br>
+               <label for="gender">Gender:</label>
+               <input class="ex6" type="radio" name="gender">
+               <label for="gender">Male</label>
+               <input type="radio" name="gender" checked>
+               <label for="gender">Female</label>
+               <input type="radio" name="gender">
+               <label for="gender">Other</label><br>
+               <label>Reason for RDIP:</label> 
+               <input type="checkbox" id="Html" name="html" value="HTML" checked>
+               <label for="html">HTML</label>
+               <input type="checkbox" id="css" name="css" value="css">
+               <label for="css">CSS</label>
+               <input type="checkbox" id="js" name="js" value="Javascript">
+               <label for="JavaScript">JavaScript</label><br>
+               <label for="College">College:
+               <input class="ex7" type="text" name="College" value="GVPCEW">
+               </label><br>
+               <input type="checkbox" id="declaration" value="declaration" checked>
+               <label class="ex8" for="declaration">I declare above details given by me are true.</label><br>
+               <a href="details.html" class="button">submit</a>
+               <input class="ex9" type="reset" value="Reset">
+        </form>
+    </body>
+</html>
